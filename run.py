@@ -77,7 +77,7 @@ threads.append(thread9)
 for t in threads:
     t.join()
 
-with open("datastore.json", "w") as outfile:  
+with open("datastore.json", "w") as outfile:    #exporting the dictionary as a json file
     json.dump(app.d, outfile) 
 
 print("Finished!!")
