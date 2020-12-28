@@ -3,9 +3,9 @@
 Created a key-value data store that supports the basic CRD(create, read and delete) operations using python. 
 
 Memory Constraints:
--> Key is always a string with maximum of 32 characters
--> Data Store size limit is 1 GB
--> Values size limit is 16 KB
+1) Key is always a string with maximum of 32 characters
+2) Data Store size limit is 1 GB
+3) Values size limit is 16 KB
 
 Error Responses Addressed:
 1) All the memory constraints must be satisfied
