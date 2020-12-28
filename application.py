@@ -52,6 +52,9 @@ def read(key):
 def delete(key):
     if key not in d:
         print("Key",key,"does not exist!!!")
+    else:
+        if d[key][1]==0:	# If time_to_live value is not specified for the key
+        	del d[key]
         	print("Key",key,"Deleted")
         else:
             if time.time()<d[key][1]:	 #comparing present time with time to live value of the key
