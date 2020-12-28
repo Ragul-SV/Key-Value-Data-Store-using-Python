@@ -73,7 +73,7 @@ threads.append(thread7)
 threads.append(thread8)
 threads.append(thread9)
 
-# # Wait for all threads to complete
+# Wait for all threads to complete
 for t in threads:
     t.join()
 
